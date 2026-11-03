@@ -3,7 +3,7 @@
     "fundan": {
       "type": "http",
       "url": "https://fundan.cc/mcp",
-      "headers": { "Authorization": "Bearer ${FUNDAN_CODE:-}" }
+      "headers": { "Authorization": "Bearer ${user_config.access_code}" }
     }
   }
 }

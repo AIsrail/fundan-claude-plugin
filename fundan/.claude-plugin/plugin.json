@@ -1,8 +1,23 @@
 {
   "name": "fundan",
+  "displayName": "Fundan — Central Asia Grants",
   "version": "0.1.0",
   "description": "Open grants, investors and accelerators for Central Asia (Kyrgyzstan, Kazakhstan, Uzbekistan, Tajikistan): search, urgent deadlines, fit check. RU/EN.",
-  "author": { "name": "Fundan (Connect4Pro)", "url": "https://fundan.cc" },
-  "homepage": "https://fundan.cc/en",
-  "keywords": ["grants", "funding", "nonprofit", "Central Asia", "гранты"]
+  "author": { "name": "Connect4Pro", "url": "https://fundan.cc" },
+  "homepage": "https://fundan.cc/en/ai",
+  "repository": "https://github.com/AIsrail/fundan-claude-plugin",
+  "license": "MIT",
+  "keywords": ["grants", "funding", "nonprofit", "Central Asia", "гранты"],
+  "icon": "./icon.svg",
+  "documentationUrl": "https://fundan.cc/ai/claude",
+  "supportUrl": "https://fundan.cc/en/ai",
+  "privacyPolicyUrl": "https://fundan.cc/privacy",
+  "userConfig": {
+    "access_code": {
+      "type": "string",
+      "title": "Fundan access code (optional)",
+      "description": "Leave empty for the free tier. A paid Fundan access code (https://fundan.cc) unlocks the full list of open programs.",
+      "sensitive": true
+    }
+  }
 }
