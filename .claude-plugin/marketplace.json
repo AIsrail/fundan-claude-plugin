@@ -1,0 +1,16 @@
+{
+  "name": "fundan",
+  "owner": { "name": "Fundan (Connect4Pro)", "url": "https://fundan.cc" },
+  "metadata": {
+    "description": "Open grants, investors and accelerators for Central Asia — right inside Claude. / Открытые гранты, инвесторы и акселераторы Центральной Азии — прямо в Claude."
+  },
+  "plugins": [
+    {
+      "name": "fundan",
+      "source": "./fundan",
+      "description": "Find open grants for Central Asia (KG, KZ, UZ, TJ), see deadlines and check whether a program fits your project. RU/EN.",
+      "category": "productivity",
+      "keywords": ["grants", "funding", "nonprofit", "Central Asia", "Kyrgyzstan", "Kazakhstan", "Uzbekistan", "гранты"]
+    }
+  ]
+}

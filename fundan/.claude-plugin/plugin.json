@@ -1,0 +1,8 @@
+{
+  "name": "fundan",
+  "version": "0.1.0",
+  "description": "Open grants, investors and accelerators for Central Asia (Kyrgyzstan, Kazakhstan, Uzbekistan, Tajikistan): search, urgent deadlines, fit check. RU/EN.",
+  "author": { "name": "Fundan (Connect4Pro)", "url": "https://fundan.cc" },
+  "homepage": "https://fundan.cc/en",
+  "keywords": ["grants", "funding", "nonprofit", "Central Asia", "гранты"]
+}

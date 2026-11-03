@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "fundan": {
+      "type": "http",
+      "url": "https://fundan.cc/mcp",
+      "headers": { "Authorization": "Bearer ${FUNDAN_CODE:-}" }
+    }
+  }
+}
