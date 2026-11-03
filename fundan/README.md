@@ -20,7 +20,7 @@ Free: programs with a deadline within 7 days, a few always-open programs, and th
 
 ## Data and privacy
 
-The plugin does not run any local code or scripts. It only connects Claude to the Fundan server over HTTPS. When Claude calls a tool, the arguments of that call (a search query in Russian keywords, an applicant type, a country code, a program id) and, if you entered one, your access code are sent to `https://fundan.cc/mcp`. Fundan answers with program data and does not store your queries or conversations; it keeps only anonymous aggregate usage counters. The access code is stored by Claude Code in your system's secure credential store. Privacy policy: https://fundan.cc/privacy
+The plugin does not run any local code or scripts. It only connects Claude to the Fundan server over HTTPS. When Claude calls a tool, the arguments of that call (a search query in Russian keywords, an applicant type, a country code, a program id) and, if you entered one, your access code are sent to `https://fundan.cc/mcp`. Fundan answers with program data. Search phrases are processed on Cloudflare infrastructure (including Cloudflare Workers AI, used only to match programs); for long phrases a short, anonymized rewrite of the search topic is cached for up to 7 days to speed up repeated searches. Fundan does not store your conversations with Claude and does not use your queries for advertising; it keeps only anonymous aggregate usage counters. The access code is stored by Claude Code in your system's secure credential store. Privacy policy: https://fundan.cc/privacy
 
 Only currently open programs are shown. Program data is in Russian; Claude translates it. Always confirm conditions and deadlines on the official link before applying.
 
